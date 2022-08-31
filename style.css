@@ -1,0 +1,45 @@
+body{
+    background-color: purple;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+    font: bolder;
+}
+.info{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: gold;
+    text-align: end;
+}
+  li {
+    display: inline-block;
+    text-align: justify;
+    margin-right: 20em;
+    padding-bottom: 5em;
+  }
+  li.champ{
+    display:flex;
+    
+  }
+  li.stat{
+    float: left;
+    font-size: 5em;
+    padding-bottom: 1px;
+  }
+  .name{
+    font-weight: bold;
+    border-color: gold;
+    text-align: right;
+  }
+  .resize{
+    width: 10em;
+    height: 7em;
+    position: relative;
+    top: 1em;
+    left: 90em;
+  }
+  p.points{
+    color: gold;
+  }
